@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sooper Youtube</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <!-- 1. The <iframe> (and video player) will replace this <div> tag. -->
+    <div id="video-placeholder"></div>
+    <div id="controls">
+        <ul>
+            <li>
+                <h2>Play</h2>
+                <i id="play" class="material-icons">play</i>
+            </li>
+            <li>
+                <h2>Pause</h2>
+                <i id="pause" class="material-icons">pause</i>
+            </li>
+            <li>
+                <h2>Mute / Unmute</h2>
+                <i id="mute-toggle" class="material-icons">Mute</i>
+            </li>
+            <li>
+                <h2>Playlist Next</h2>
+                <i id="next" class="material-icons">Next</i>
+            </li>
+            <li>
+                <h2>Playlist Previous</h2>
+                <i id="prev" class="material-icons">Prev</i>
+            </li>
+            <li>
+                <img class="thumbnail" src="images/1.jpg" data-video-id="mZKTRPHQRPM">
+                <img class="thumbnail" src="images/2.jpg" data-video-id="DdU2AUiqgV8">
+                <img class="thumbnail" src="images/3.jpg" data-video-id="AWeFP-W6kAI">
+                <img class="thumbnail" src="images/4.jpg" data-video-id="b5qS5V4FVmg">
+                <img class="thumbnail" src="images/5.png" data-video-id="rWtsPSzxA-U">
+            </li>
+        </ul>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
