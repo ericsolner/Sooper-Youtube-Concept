@@ -5,11 +5,11 @@ function onYouTubeIframeAPIReady() {
     player = new YT.Player('video-placeholder', {
         width: 600,
         height: 400,
-        videoId: 'ixnVLgVJI',
+        videoId: 'Uwt_QayPkzw',
         playerVars: {
             autoplay: 1,
             color: 'white',
-            playlist: 'BJwyqMY0iUQ,bQRgerH7UP4'
+            playlist: '8urmYv-1xJQ,BJwyqMY0iUQ,bQRgerH7UP4'
         },
         events: {
             onReady: initialize
